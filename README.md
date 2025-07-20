@@ -1,6 +1,6 @@
-# Web Component Library: Environment Setup
+# UI Component Library: Environment Setup
 
-Built using React (Next.js) and Storybook, this project features a responsive web component library that includes buttons, text, tables, images, and more. The application is containerized with Docker and serves the production build on localhost:8083.
+Built using React (Next.js) and Storybook, this project features a responsive UI component library that includes buttons, text, tables, images, and more. The application is containerized with Docker and serves the production build on localhost:8018.
 
 ## Prerequisites
 - Ensure [Docker](https://www.docker.com/get-started) is installed on your machine.
@@ -14,8 +14,8 @@ Built using React (Next.js) and Storybook, this project features a responsive we
 Clone this project repository and navigate to its directory:
 
 ```bash
-git clone https://github.com/jli33-rrc/li_jenna_coding_assignment12.git
-cd li_jenna_coding_assignment12
+git clone https://github.com/jli33-rrc/li_jenna_coding_assignment13.git
+cd li_jenna_coding_assignment13
 ```
 
 ### 2. Build the Docker Image
@@ -23,7 +23,7 @@ cd li_jenna_coding_assignment12
 Build the Docker Image by using the following command:
 
 ```bash
-docker build -f Dockerfile.prod -t li_jenna_coding_assignment12:prod .
+[CODE]
 ```
 
 ### 3. Run the Docker Container
@@ -31,11 +31,11 @@ docker build -f Dockerfile.prod -t li_jenna_coding_assignment12:prod .
 Run the Docker Container by using the following command:
 
 ```bash
-docker run -d -p 8083:80 --name li_jenna_coding_assignment12 li_jenna_coding_assignment12:prod
+[CODE]
 ```
 
 ### 4. Access the Application
 
 Once the container starts successfully, you can access the application in your web browser at:
 
-- Local: (http://localhost:8083)
+- Local: (http://localhost:8018)
