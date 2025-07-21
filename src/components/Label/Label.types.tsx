@@ -1,5 +1,5 @@
 export interface LabelProps {
-    text: string;
-    htmlFor?: string;
-    textColour?: string;
+  text: string;
+  htmlFor?: string;
+  textColour?: string;
 }

@@ -4,10 +4,7 @@ const config: Config = {
   preset: 'ts-jest',
   testEnvironment: 'jest-environment-jsdom',
   setupFilesAfterEnv: ['<rootDir>/jest.setup.ts'],
-  testMatch: [
-    '**/__tests__/**/*.ts?(x)',
-    '**/?(*.)+(spec|test|tests).ts?(x)',
-  ],
+  testMatch: ['**/__tests__/**/*.ts?(x)', '**/?(*.)+(spec|test|tests).ts?(x)'],
   transform: {
     '^.+\\.tsx?$': 'ts-jest',
   },
