@@ -1,6 +1,6 @@
 # UI Component Library: Environment Setup
 
-Built using React (Next.js) and Storybook, this project features a responsive UI component library that includes buttons, text, tables, images, and more. It also runs pre-commit checks for Prettier, ESLint, and Tests using GitHub actions. The application is containerized with Docker and serves the production build on localhost:8018.
+Built using React (Next.js) and Storybook, this project features a responsive UI component library that includes buttons, text, tables, images, and more. It also runs pre-commit checks for Prettier, ESLint, and Jest tests using GitHub actions. The application is containerized with Docker and serves the production build on localhost:8018.
 
 ## Prerequisites
 
